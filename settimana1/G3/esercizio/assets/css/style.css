@@ -1,0 +1,42 @@
+
+header{
+  text-align: center;
+  background-color: rgb(247, 244, 239);
+  border-bottom: 1px solid yellow;
+}
+.logo{
+  width: 16%;
+}
+.headertitel{
+  text-align: center;
+  color: rgb(23, 72, 23);
+  margin-top: 11px;
+}
+span{
+  font-size: 16px;
+}
+main{
+ width: 50vw;
+ margin: 0 auto;
+}
+h1{
+  text-transform: capitalize;
+  text-align: center;
+}
+.focacia{
+  border-radius: 10px;
+  width: 100%;
+}
+figcaption{
+  text-align: center;
+  color: rgb(159, 159, 159);
+}
+h4{
+  color: red;
+  padding-left: 15px;
+  border-left: 1px solid yellow;
+}
+h3{
+  border-bottom: 0.1px solid rgb(128, 198, 217);
+  padding-bottom: 15px;
+}
