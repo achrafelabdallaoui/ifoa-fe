@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400&display=swap');
+/* IMPOSTAZIONI GENERALI */
+body{
+  background-image: url(../img/sfondo.png);
+  padding: 20px;
+  font-family: 'Poppins', sans-serif ;
+}
+/* HEADER */
+header{
+
+  background: linear-gradient(#00A0C6, #036D86);      
+  text-align: center;
+  color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 6px 6px #666;
+}
+
+#menu{
+  list-style: none;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+
+}
+
+#menu li::before{
+  content: '\22c6\0020';
+}
+
+
+
+/* MAIN */
+
+main{
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-top: 23px;
+  
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+
+.mario{
+  color: rgb(174, 172, 172);
+}
+
+.violet{
+  color: rgb(134, 18, 134);
+}
+
+.lista{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+/* TABELLE */
+table, tr, td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 80vw;
+  text-align: center;
+
+}
+
+table{
+  border-bottom: 1px solid rgb(52, 146, 222);
+}
+
+thead{
+  background-color: rgb(52, 146, 222);
+  color: white;
+}
+
+caption{
+  font-family: cursive;
+  font-size: 23px;
+}
+
+iframe{
+  width: 82vw;
+  border-radius: 20px;
+  border: none;
+}
+
+#novita{
+  text-align: center;
+}
+
+/* FORM */
+
+.user{
+  border: none;
+  border-bottom: 1px dotted;
+  width: 30vw;
+  height: 30px;
+}
+.user:hover{
+  background-color: rgb(52, 146, 222);
+  color: white;
+  border-radius: 30px;
+}
+.user:active{
+  background-color: rgb(52, 146, 222);
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.b{
+  background-color: rgb(52, 146, 222);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 90px;
+  height: 30px;
+}
+/* ELEMENTI NELL' ASIDE */
+
+aside{
+  background-color: white;
+  margin-top: -20px;
+  padding: 30px;
+}
+.hsd{
+text-align: center;
+}
+
+.d{
+  border: 1px solid lightgrey;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.data{
+ text-align: right;
+}
+
+/* FOOTER */
+footer{
+  background: linear-gradient(#00A0C6, #036D86);  
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
